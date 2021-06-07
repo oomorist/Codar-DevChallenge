@@ -1,0 +1,399 @@
+:root {
+    --red: #D6000D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: "Roboto", "sans-serif";
+
+}
+
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.brand {
+    color: var(--red);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.span-brand {
+    color: black;
+}
+
+ul li { 
+    display: inline;
+    padding: 1rem;
+}
+
+ul li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.menu-button {
+    width: 130px;
+    padding: 8px;
+    background-color: var(--red);
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-right: 10px;
+
+    color: white;
+    font-style: bold;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+main {
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.image {
+    width:350px;
+    padding: 1rem;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.container p {
+    font-weight: 700;
+}
+
+.container h1 {
+    color: var(--red);
+    font-size: 48px;
+    font-style: bold;
+}
+
+.title-button {
+    margin-top: 2rem;
+    width: 200px;
+    padding: 8px;
+    background-color: var(--red);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+    font-weight: 700;;
+}
+
+.title-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 10px
+}
+
+.sub-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.list-group {
+    list-style-type: none;
+    margin-top: 6rem;
+    font-size: 20px;
+}
+
+.fa-check-circle {
+    color: var(--red);
+    margin-right: 10px;
+}
+
+
+.image-2 {
+    width: 380px;
+    padding: 1rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: -20vw;
+    align-items: center;
+    
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(212, 208, 208);
+    
+}
+.contact-button {
+    width: 180px;
+    padding: 10px;
+    background-color: var(--red);
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-right: 10px;
+
+    color: white;
+    font-style: bold;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.user-recomendation {
+    display: flex;
+    justify-content: space-around;
+    width: 860px;
+    margin: 100px auto;
+}
+
+.user-image {
+    background-color: var(--red);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.user {
+    background-color: rgb(212, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+.user-info {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    text-align: justify;
+    
+}
+
+.user p {
+    font-size: 15px;
+    
+}
+
+.user h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 3rem 2rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-bar {
+    width: 250px;
+    padding: 0 1rem;
+}
+
+.brand-name {
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.brand-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.footer-title {
+    font-size: 20px;
+}
+
+.fab {
+    color: var(--red);
+    margin: 10px 10px;
+    text-decoration: none;
+
+}
+
+
+.fas {
+    color: var(--red);
+    margin: 6px 10px;
+
+}
+
+.social-media {
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:850px) {
+
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand {
+        font-size: 48px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 20px;  
+    }
+
+    .sub-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;  
+        text-align: center;
+    }
+
+    .sub-container-2 {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center; 
+        text-align: left;
+    }
+
+    .image-2 {
+        margin-top: 100px
+    }
+
+    .list-group {
+        list-style-type: none;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-button {
+        margin-top: 5px;
+        width: 190px;
+        margin-right: 0;
+    }
+
+    .contact {
+        margin-left: auto;
+    }
+
+    .user-recomendation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        width: 0;
+    }
+
+    .user {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bar .brand-name {
+        text-align: center;
+    }
+
+    .brand-text-1 {
+        text-align: center;
+    }
+
+    .footer-title {
+        margin-top: 25px
+    }
+
+    .fab {
+        margin: 10px 10px 0 0;
+    }
+}
